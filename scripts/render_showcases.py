@@ -9,11 +9,11 @@ TITLE = 'Generative Match-Cut Based on Visual References'
 
 def image(case, name, description, width, height):
     base = f'assets/{case}/{name}'
-    return (f'<img class="animation" src="{base}.jpg" data-still="{base}.jpg" '
+    return (f'<img class="animation" src="{base}.gif" data-still="{base}.jpg" '
             f'data-gif="{base}.gif" width="{width}" height="{height}" '
             f'alt="{escape(description, quote=True)}" data-description="{escape(description, quote=True)}" '
             f'loading="lazy" decoding="async" tabindex="0" role="button" '
-            f'aria-label="Play {escape(description, quote=True)}" aria-pressed="false">')
+            f'aria-label="Pause {escape(description, quote=True)}" aria-pressed="true">')
 
 
 def main():
@@ -50,8 +50,8 @@ def main():
   <meta name="description" content="{TITLE}. Original reference videos and edited match-cut showcases.">
   <meta name="theme-color" content="#ffffff">
   <title>{TITLE}</title>
-  <link rel="stylesheet" href="style.css?v=20261120-selected">
-  <script src="app.js?v=20261120-selected" defer></script>
+  <link rel="stylesheet" href="style.css?v=20261120-gif-default">
+  <script src="app.js?v=20261120-gif-default" defer></script>
 </head>
 <body>
   <header class="publication-header">

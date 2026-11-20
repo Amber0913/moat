@@ -14,9 +14,10 @@ Visit `http://localhost:8000`. Each showcase contains two half-width original GI
 The prompts stay on one line and cannot expand the grid columns. Original and
 edited versions are labeled above their images.
 
-GIFs animate while near the viewport. Click one, or focus it and press Enter/Space,
-to switch between the animation and its still preview. Reduced-motion preferences
-disable automatic animation.
+GIFs load directly as images and animate without JavaScript. Native lazy loading
+defers images farther down the page. Click one, or focus it and press Enter/Space,
+to switch between the animation and its still preview. The script only provides
+these manual pause/resume controls.
 
 The displayed showcases are listed in `scripts/showcases.json` and retain their
 source order. Prompts are labeled `Prompt A` and `Prompt B`.
