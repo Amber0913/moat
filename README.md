@@ -36,4 +36,4 @@ python scripts/render_showcases.py
 
 To publish with GitHub Pages, set **Settings > Pages > Deploy from a branch** to
 **main / (root)**. All paths are relative, so the page also works under a project
-URL such as `https://amber0913.github.io/moat.github.io/`.
+URL such as `https://amber0913.github.io/moat/`.
