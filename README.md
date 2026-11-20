@@ -14,17 +14,19 @@ Visit `http://localhost:8000`. Each showcase contains two half-width original GI
 The prompts stay on one line and cannot expand the grid columns. Original and
 edited versions are labeled above their images.
 
-GIFs load directly as images and animate without JavaScript. Native lazy loading
-defers images farther down the page. Click one, or focus it and press Enter/Space,
-to switch between the animation and its still preview. The script only provides
-these manual pause/resume controls.
+The first showcase loads GIFs directly, prioritizing the edited result. Later GIFs
+load within 100 pixels of the viewport, so offscreen cases do not compete for
+bandwidth. Once loaded, they remain animated until manually paused. Click one,
+or focus it and press Enter/Space, to switch between animation and still preview.
+When JavaScript is disabled, native lazy-loaded GIF fallbacks display every case.
 
 The displayed showcases are listed in `scripts/showcases.json` and retain their
 source order. Prompts are labeled `Prompt A` and `Prompt B`.
 There are no case names, categories, statistics, toolbars, or selection controls.
 The original GIFs come from the original A/B source videos, not edited_A.mp4.
 GIFs retain the full frame and clip duration, sampled at 10 fps. Edited GIFs are
-480 pixels wide; originals are 240 pixels wide. The source MP4 files are unchanged.
+384 pixels wide; originals are 192 pixels wide, with optimized 192-color palettes.
+The source MP4 files are unchanged.
 
 Compact prompts and source mappings are in `scripts/showcases.json`. To regenerate
 the GIFs and page from the source workspace (ffmpeg required):

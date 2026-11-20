@@ -28,7 +28,7 @@ h2 { margin: 0 0 2rem; text-align: center; font-size: 2rem; line-height: 1.125; 
 figure { margin: 0; min-width: 0; }
 .original-grid figcaption { margin: 0 0 .25rem; text-align: center; font-size: .875rem; line-height: 1.5; color: #777; }
 .edited-label { margin: .75rem 0 .375rem; }
-.animation {
+.animation, .animation-fallback {
   display: block;
   width: 100%;
   height: auto;

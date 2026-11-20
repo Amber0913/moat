@@ -11,8 +11,8 @@ from pathlib import Path
 
 SITE = Path(__file__).resolve().parents[1]
 WORKSPACE = SITE.parent
-SETTINGS = {'fps': 10, 'original_width': 240, 'edited_width': 480,
-            'palette': 256, 'dither': 'bayer', 'version': 1}
+SETTINGS = {'fps': 10, 'original_width': 192, 'edited_width': 384,
+            'palette': 192, 'dither': 'bayer', 'bayer_scale': 3, 'version': 2}
 
 
 def convert(job, ffmpeg):
@@ -31,8 +31,8 @@ def convert(job, ffmpeg):
     temporary = target.with_name('.'+target.stem+'.tmp.gif')
     graph = (f'[0:v]fps={SETTINGS["fps"]},scale={width}:-2:flags=lanczos,'
              'split[frames][colors];'
-             '[colors]palettegen=stats_mode=full:reserve_transparent=0[palette];'
-             '[frames][palette]paletteuse=dither=bayer:bayer_scale=3:diff_mode=rectangle')
+             f'[colors]palettegen=max_colors={SETTINGS["palette"]}:stats_mode=full:reserve_transparent=0[palette];'
+             f'[frames][palette]paletteuse=dither=bayer:bayer_scale={SETTINGS["bayer_scale"]}:diff_mode=rectangle')
     command = [ffmpeg, '-hide_banner', '-loglevel', 'error', '-nostdin', '-y',
                '-threads', '1', '-filter_complex_threads', '1', '-i', str(source),
                '-filter_complex', graph, '-an', '-loop', '0', '-threads', '1',
