@@ -1,0 +1,194 @@
+[
+  {
+    "id": "prompt_pair_001",
+    "prompt_a": "A bone spins in the air.",
+    "prompt_b": "A spacecraft glides in space.",
+    "source_a": "runs/prompt_pair_001/sources/A_raw.mp4",
+    "source_b": "runs/prompt_pair_001/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/prompt_pair_001/generation/final.mp4"
+  },
+  {
+    "id": "prompt_pair_002",
+    "prompt_a": "A car circles an interchange.",
+    "prompt_b": "A skater circles on a lake.",
+    "source_a": "runs/prompt_pair_002/sources/A_raw.mp4",
+    "source_b": "runs/prompt_pair_002/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/prompt_pair_002/generation/final.mp4"
+  },
+  {
+    "id": "prompt_pair_003",
+    "prompt_a": "An autumn leaf spirals down.",
+    "prompt_b": "A butterfly flutters.",
+    "source_a": "runs/prompt_pair_003/sources/A_raw.mp4",
+    "source_b": "runs/prompt_pair_003/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/prompt_pair_003/generation/final.mp4"
+  },
+  {
+    "id": "prompt_pair_005",
+    "prompt_a": "A flower blooms.",
+    "prompt_b": "Fireworks light up the sky.",
+    "source_a": "runs/prompt_pair_005/sources/A_raw.mp4",
+    "source_b": "runs/prompt_pair_005/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/prompt_pair_005/generation/final.mp4"
+  },
+  {
+    "id": "prompt13_pair_001",
+    "prompt_a": "A silver frisbee glides.",
+    "prompt_b": "A flying saucer drifts.",
+    "source_a": "runs/prompt13_pair_001/sources/A_raw.mp4",
+    "source_b": "runs/prompt13_pair_001/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_001/generation/final.mp4"
+  },
+  {
+    "id": "prompt13_pair_002",
+    "prompt_a": "A red balloon rises.",
+    "prompt_b": "A sky lantern floats upward.",
+    "source_a": "runs/prompt13_pair_002/sources/A_raw.mp4",
+    "source_b": "runs/prompt13_pair_002/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_002/generation/final.mp4"
+  },
+  {
+    "id": "prompt13_pair_003",
+    "prompt_a": "A paper airplane glides.",
+    "prompt_b": "A spacecraft glides in space.",
+    "source_a": "runs/prompt13_pair_003/sources/A_raw.mp4",
+    "source_b": "runs/prompt13_pair_003/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_003/generation/final.mp4"
+  },
+  {
+    "id": "prompt13_pair_004",
+    "prompt_a": "A tennis ball arcs through air.",
+    "prompt_b": "An energy sphere floats.",
+    "source_a": "editA_oat_v4/runs/prompt13_pair_004/sources/A_raw.mp4",
+    "source_b": "editA_oat_v4/runs/prompt13_pair_004/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_004/generation/final.mp4"
+  },
+  {
+    "id": "prompt13_pair_007",
+    "prompt_a": "A camera pans past a clock.",
+    "prompt_b": "A full moon drifts in the sky.",
+    "source_a": "runs/prompt13_pair_007/sources/A_raw.mp4",
+    "source_b": "runs/prompt13_pair_007/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_007/generation/final.mp4"
+  },
+  {
+    "id": "prompt13_pair_008",
+    "prompt_a": "A soap bubble floats.",
+    "prompt_b": "A glass marble rolls.",
+    "source_a": "editA_oat_v4/runs/prompt13_pair_008/sources/A_raw.mp4",
+    "source_b": "editA_oat_v4/runs/prompt13_pair_008/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_008/generation/final.mp4"
+  },
+  {
+    "id": "prompt13_pair_010",
+    "prompt_a": "A red cherry rolls.",
+    "prompt_b": "A red glass bead rolls.",
+    "source_a": "editA_oat_v4/runs/prompt13_pair_010/sources/A_raw.mp4",
+    "source_b": "editA_oat_v4/runs/prompt13_pair_010/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_010/generation/final.mp4"
+  },
+  {
+    "id": "prompt13_pair_011",
+    "prompt_a": "A ping-pong ball rolls away.",
+    "prompt_b": "A round robot moves away.",
+    "source_a": "editA_oat_v4/runs/prompt13_pair_011/sources/A_raw.mp4",
+    "source_b": "editA_oat_v4/runs/prompt13_pair_011/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_011/generation/final.mp4"
+  },
+  {
+    "id": "prompt13_pair_013",
+    "prompt_a": "A camera nears an arch.",
+    "prompt_b": "A camera nears a tunnel.",
+    "source_a": "editA_oat_v4/runs/prompt13_pair_013/sources/A_raw.mp4",
+    "source_b": "editA_oat_v4/runs/prompt13_pair_013/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_013/generation/final.mp4"
+  },
+  {
+    "id": "prompt30_pair_002",
+    "prompt_a": "A red umbrella sways in rain.",
+    "prompt_b": "A red jellyfish pulses.",
+    "source_a": "editA_oat_v4/runs/prompt30_pair_002/sources/A_raw.mp4",
+    "source_b": "editA_oat_v4/runs/prompt30_pair_002/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/prompt30_pair_002/generation/final.mp4"
+  },
+  {
+    "id": "prompt30_pair_011",
+    "prompt_a": "A soccer ball rolls.",
+    "prompt_b": "A pufferfish swims in a reef.",
+    "source_a": "editA_oat_v4/runs/prompt30_pair_011/sources/A_raw.mp4",
+    "source_b": "editA_oat_v4/runs/prompt30_pair_011/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/prompt30_pair_011/generation/final.mp4"
+  },
+  {
+    "id": "prompt30_pair_014",
+    "prompt_a": "A goldfish swims.",
+    "prompt_b": "An orange silk flag ripples.",
+    "source_a": "editA_oat_v4/runs/prompt30_pair_014/sources/A_raw.mp4",
+    "source_b": "editA_oat_v4/runs/prompt30_pair_014/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/prompt30_pair_014/generation/final.mp4"
+  },
+  {
+    "id": "prompt30new_pair_001",
+    "prompt_a": "A frisbee flies over a park.",
+    "prompt_b": "A flying saucer crosses a city.",
+    "source_a": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_001/sources/A_raw.mp4",
+    "source_b": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_001/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_001/generation/final.mp4"
+  },
+  {
+    "id": "prompt30new_pair_003",
+    "prompt_a": "A bicycle wheel turns.",
+    "prompt_b": "A Ferris wheel rotates.",
+    "source_a": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_003/sources/A_raw.mp4",
+    "source_b": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_003/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_003/generation/final.mp4"
+  },
+  {
+    "id": "prompt30new_pair_007",
+    "prompt_a": "A pink doughnut rests.",
+    "prompt_b": "A pink life ring hangs.",
+    "source_a": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_007/sources/A_raw.mp4",
+    "source_b": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_007/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_007/generation/final.mp4"
+  },
+  {
+    "id": "prompt30new_pair_009",
+    "prompt_a": "A strawberry rests on a table.",
+    "prompt_b": "A red hot-air balloon drifts.",
+    "source_a": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_009/sources/A_raw.mp4",
+    "source_b": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_009/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_009/generation/final.mp4"
+  },
+  {
+    "id": "prompt30new_pair_011",
+    "prompt_a": "A green fan stands open.",
+    "prompt_b": "A peacock displays its tail.",
+    "source_a": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_011/sources/A_raw.mp4",
+    "source_b": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_011/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_011/generation/final.mp4"
+  },
+  {
+    "id": "prompt30new_pair_015",
+    "prompt_a": "A wingsuit flyer glides.",
+    "prompt_b": "A flying squirrel glides.",
+    "source_a": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_015/sources/A_raw.mp4",
+    "source_b": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_015/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_015/generation/final.mp4"
+  },
+  {
+    "id": "prompt30new_pair_016",
+    "prompt_a": "A person wears a raincoat.",
+    "prompt_b": "A yellow scarecrow stands.",
+    "source_a": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_016/sources/A_raw.mp4",
+    "source_b": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_016/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_016/generation/final.mp4"
+  },
+  {
+    "id": "prompt30new_pair_019",
+    "prompt_a": "A pinecone rests on moss.",
+    "prompt_b": "A pangolin curls in a forest.",
+    "source_a": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_019/sources/A_raw.mp4",
+    "source_b": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_019/sources/B_raw.mp4",
+    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_019/generation/final.mp4"
+  }
+]

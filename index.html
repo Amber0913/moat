@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Generative Match-Cut Based on Visual References. Original reference videos and edited match-cut showcases.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Generative Match-Cut Based on Visual References</title>
+  <link rel="stylesheet" href="style.css?v=20261120-selected">
+  <script src="app.js?v=20261120-selected" defer></script>
+</head>
+<body>
+  <header class="publication-header">
+    <h1>Generative Match-Cut Based on Visual References</h1>
+  </header>
+  <main>
+    <section class="results" aria-labelledby="showcases-title">
+      <h2 id="showcases-title">Showcases</h2>
+      <div class="showcase-grid">
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt_pair_001/original-a.jpg" data-still="assets/prompt_pair_001/original-a.jpg" data-gif="assets/prompt_pair_001/original-a.gif" width="240" height="138" alt="original video A: A bone spins in the air." data-description="original video A: A bone spins in the air." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A bone spins in the air." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt_pair_001/original-b.jpg" data-still="assets/prompt_pair_001/original-b.jpg" data-gif="assets/prompt_pair_001/original-b.gif" width="240" height="138" alt="original video B: A spacecraft glides in space." data-description="original video B: A spacecraft glides in space." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A spacecraft glides in space." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt_pair_001/edited.jpg" data-still="assets/prompt_pair_001/edited.jpg" data-gif="assets/prompt_pair_001/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A bone spins in the air.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A spacecraft glides in space.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt_pair_002/original-a.jpg" data-still="assets/prompt_pair_002/original-a.jpg" data-gif="assets/prompt_pair_002/original-a.gif" width="240" height="138" alt="original video A: A car circles an interchange." data-description="original video A: A car circles an interchange." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A car circles an interchange." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt_pair_002/original-b.jpg" data-still="assets/prompt_pair_002/original-b.jpg" data-gif="assets/prompt_pair_002/original-b.gif" width="240" height="138" alt="original video B: A skater circles on a lake." data-description="original video B: A skater circles on a lake." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A skater circles on a lake." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt_pair_002/edited.jpg" data-still="assets/prompt_pair_002/edited.jpg" data-gif="assets/prompt_pair_002/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A car circles an interchange.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A skater circles on a lake.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt_pair_003/original-a.jpg" data-still="assets/prompt_pair_003/original-a.jpg" data-gif="assets/prompt_pair_003/original-a.gif" width="240" height="138" alt="original video A: An autumn leaf spirals down." data-description="original video A: An autumn leaf spirals down." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: An autumn leaf spirals down." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt_pair_003/original-b.jpg" data-still="assets/prompt_pair_003/original-b.jpg" data-gif="assets/prompt_pair_003/original-b.gif" width="240" height="138" alt="original video B: A butterfly flutters." data-description="original video B: A butterfly flutters." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A butterfly flutters." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt_pair_003/edited.jpg" data-still="assets/prompt_pair_003/edited.jpg" data-gif="assets/prompt_pair_003/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">An autumn leaf spirals down.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A butterfly flutters.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt_pair_005/original-a.jpg" data-still="assets/prompt_pair_005/original-a.jpg" data-gif="assets/prompt_pair_005/original-a.gif" width="240" height="138" alt="original video A: A flower blooms." data-description="original video A: A flower blooms." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A flower blooms." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt_pair_005/original-b.jpg" data-still="assets/prompt_pair_005/original-b.jpg" data-gif="assets/prompt_pair_005/original-b.gif" width="240" height="138" alt="original video B: Fireworks light up the sky." data-description="original video B: Fireworks light up the sky." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: Fireworks light up the sky." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt_pair_005/edited.jpg" data-still="assets/prompt_pair_005/edited.jpg" data-gif="assets/prompt_pair_005/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A flower blooms.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">Fireworks light up the sky.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt13_pair_001/original-a.jpg" data-still="assets/prompt13_pair_001/original-a.jpg" data-gif="assets/prompt13_pair_001/original-a.gif" width="240" height="138" alt="original video A: A silver frisbee glides." data-description="original video A: A silver frisbee glides." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A silver frisbee glides." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt13_pair_001/original-b.jpg" data-still="assets/prompt13_pair_001/original-b.jpg" data-gif="assets/prompt13_pair_001/original-b.gif" width="240" height="138" alt="original video B: A flying saucer drifts." data-description="original video B: A flying saucer drifts." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A flying saucer drifts." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt13_pair_001/edited.jpg" data-still="assets/prompt13_pair_001/edited.jpg" data-gif="assets/prompt13_pair_001/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A silver frisbee glides.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A flying saucer drifts.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt13_pair_002/original-a.jpg" data-still="assets/prompt13_pair_002/original-a.jpg" data-gif="assets/prompt13_pair_002/original-a.gif" width="240" height="138" alt="original video A: A red balloon rises." data-description="original video A: A red balloon rises." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A red balloon rises." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt13_pair_002/original-b.jpg" data-still="assets/prompt13_pair_002/original-b.jpg" data-gif="assets/prompt13_pair_002/original-b.gif" width="240" height="138" alt="original video B: A sky lantern floats upward." data-description="original video B: A sky lantern floats upward." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A sky lantern floats upward." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt13_pair_002/edited.jpg" data-still="assets/prompt13_pair_002/edited.jpg" data-gif="assets/prompt13_pair_002/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A red balloon rises.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A sky lantern floats upward.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt13_pair_003/original-a.jpg" data-still="assets/prompt13_pair_003/original-a.jpg" data-gif="assets/prompt13_pair_003/original-a.gif" width="240" height="138" alt="original video A: A paper airplane glides." data-description="original video A: A paper airplane glides." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A paper airplane glides." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt13_pair_003/original-b.jpg" data-still="assets/prompt13_pair_003/original-b.jpg" data-gif="assets/prompt13_pair_003/original-b.gif" width="240" height="138" alt="original video B: A spacecraft glides in space." data-description="original video B: A spacecraft glides in space." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A spacecraft glides in space." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt13_pair_003/edited.jpg" data-still="assets/prompt13_pair_003/edited.jpg" data-gif="assets/prompt13_pair_003/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A paper airplane glides.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A spacecraft glides in space.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt13_pair_004/original-a.jpg" data-still="assets/prompt13_pair_004/original-a.jpg" data-gif="assets/prompt13_pair_004/original-a.gif" width="240" height="138" alt="original video A: A tennis ball arcs through air." data-description="original video A: A tennis ball arcs through air." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A tennis ball arcs through air." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt13_pair_004/original-b.jpg" data-still="assets/prompt13_pair_004/original-b.jpg" data-gif="assets/prompt13_pair_004/original-b.gif" width="240" height="138" alt="original video B: An energy sphere floats." data-description="original video B: An energy sphere floats." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: An energy sphere floats." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt13_pair_004/edited.jpg" data-still="assets/prompt13_pair_004/edited.jpg" data-gif="assets/prompt13_pair_004/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A tennis ball arcs through air.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">An energy sphere floats.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt13_pair_007/original-a.jpg" data-still="assets/prompt13_pair_007/original-a.jpg" data-gif="assets/prompt13_pair_007/original-a.gif" width="240" height="138" alt="original video A: A camera pans past a clock." data-description="original video A: A camera pans past a clock." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A camera pans past a clock." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt13_pair_007/original-b.jpg" data-still="assets/prompt13_pair_007/original-b.jpg" data-gif="assets/prompt13_pair_007/original-b.gif" width="240" height="138" alt="original video B: A full moon drifts in the sky." data-description="original video B: A full moon drifts in the sky." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A full moon drifts in the sky." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt13_pair_007/edited.jpg" data-still="assets/prompt13_pair_007/edited.jpg" data-gif="assets/prompt13_pair_007/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A camera pans past a clock.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A full moon drifts in the sky.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt13_pair_008/original-a.jpg" data-still="assets/prompt13_pair_008/original-a.jpg" data-gif="assets/prompt13_pair_008/original-a.gif" width="240" height="138" alt="original video A: A soap bubble floats." data-description="original video A: A soap bubble floats." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A soap bubble floats." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt13_pair_008/original-b.jpg" data-still="assets/prompt13_pair_008/original-b.jpg" data-gif="assets/prompt13_pair_008/original-b.gif" width="240" height="138" alt="original video B: A glass marble rolls." data-description="original video B: A glass marble rolls." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A glass marble rolls." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt13_pair_008/edited.jpg" data-still="assets/prompt13_pair_008/edited.jpg" data-gif="assets/prompt13_pair_008/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A soap bubble floats.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A glass marble rolls.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt13_pair_010/original-a.jpg" data-still="assets/prompt13_pair_010/original-a.jpg" data-gif="assets/prompt13_pair_010/original-a.gif" width="240" height="138" alt="original video A: A red cherry rolls." data-description="original video A: A red cherry rolls." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A red cherry rolls." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt13_pair_010/original-b.jpg" data-still="assets/prompt13_pair_010/original-b.jpg" data-gif="assets/prompt13_pair_010/original-b.gif" width="240" height="138" alt="original video B: A red glass bead rolls." data-description="original video B: A red glass bead rolls." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A red glass bead rolls." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt13_pair_010/edited.jpg" data-still="assets/prompt13_pair_010/edited.jpg" data-gif="assets/prompt13_pair_010/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A red cherry rolls.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A red glass bead rolls.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt13_pair_011/original-a.jpg" data-still="assets/prompt13_pair_011/original-a.jpg" data-gif="assets/prompt13_pair_011/original-a.gif" width="240" height="138" alt="original video A: A ping-pong ball rolls away." data-description="original video A: A ping-pong ball rolls away." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A ping-pong ball rolls away." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt13_pair_011/original-b.jpg" data-still="assets/prompt13_pair_011/original-b.jpg" data-gif="assets/prompt13_pair_011/original-b.gif" width="240" height="138" alt="original video B: A round robot moves away." data-description="original video B: A round robot moves away." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A round robot moves away." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt13_pair_011/edited.jpg" data-still="assets/prompt13_pair_011/edited.jpg" data-gif="assets/prompt13_pair_011/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A ping-pong ball rolls away.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A round robot moves away.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt13_pair_013/original-a.jpg" data-still="assets/prompt13_pair_013/original-a.jpg" data-gif="assets/prompt13_pair_013/original-a.gif" width="240" height="138" alt="original video A: A camera nears an arch." data-description="original video A: A camera nears an arch." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A camera nears an arch." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt13_pair_013/original-b.jpg" data-still="assets/prompt13_pair_013/original-b.jpg" data-gif="assets/prompt13_pair_013/original-b.gif" width="240" height="138" alt="original video B: A camera nears a tunnel." data-description="original video B: A camera nears a tunnel." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A camera nears a tunnel." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt13_pair_013/edited.jpg" data-still="assets/prompt13_pair_013/edited.jpg" data-gif="assets/prompt13_pair_013/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A camera nears an arch.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A camera nears a tunnel.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt30_pair_002/original-a.jpg" data-still="assets/prompt30_pair_002/original-a.jpg" data-gif="assets/prompt30_pair_002/original-a.gif" width="240" height="138" alt="original video A: A red umbrella sways in rain." data-description="original video A: A red umbrella sways in rain." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A red umbrella sways in rain." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt30_pair_002/original-b.jpg" data-still="assets/prompt30_pair_002/original-b.jpg" data-gif="assets/prompt30_pair_002/original-b.gif" width="240" height="138" alt="original video B: A red jellyfish pulses." data-description="original video B: A red jellyfish pulses." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A red jellyfish pulses." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt30_pair_002/edited.jpg" data-still="assets/prompt30_pair_002/edited.jpg" data-gif="assets/prompt30_pair_002/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A red umbrella sways in rain.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A red jellyfish pulses.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt30_pair_011/original-a.jpg" data-still="assets/prompt30_pair_011/original-a.jpg" data-gif="assets/prompt30_pair_011/original-a.gif" width="240" height="138" alt="original video A: A soccer ball rolls." data-description="original video A: A soccer ball rolls." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A soccer ball rolls." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt30_pair_011/original-b.jpg" data-still="assets/prompt30_pair_011/original-b.jpg" data-gif="assets/prompt30_pair_011/original-b.gif" width="240" height="138" alt="original video B: A pufferfish swims in a reef." data-description="original video B: A pufferfish swims in a reef." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A pufferfish swims in a reef." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt30_pair_011/edited.jpg" data-still="assets/prompt30_pair_011/edited.jpg" data-gif="assets/prompt30_pair_011/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A soccer ball rolls.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A pufferfish swims in a reef.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt30_pair_014/original-a.jpg" data-still="assets/prompt30_pair_014/original-a.jpg" data-gif="assets/prompt30_pair_014/original-a.gif" width="240" height="138" alt="original video A: A goldfish swims." data-description="original video A: A goldfish swims." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A goldfish swims." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt30_pair_014/original-b.jpg" data-still="assets/prompt30_pair_014/original-b.jpg" data-gif="assets/prompt30_pair_014/original-b.gif" width="240" height="138" alt="original video B: An orange silk flag ripples." data-description="original video B: An orange silk flag ripples." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: An orange silk flag ripples." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt30_pair_014/edited.jpg" data-still="assets/prompt30_pair_014/edited.jpg" data-gif="assets/prompt30_pair_014/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A goldfish swims.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">An orange silk flag ripples.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt30new_pair_001/original-a.jpg" data-still="assets/prompt30new_pair_001/original-a.jpg" data-gif="assets/prompt30new_pair_001/original-a.gif" width="240" height="138" alt="original video A: A frisbee flies over a park." data-description="original video A: A frisbee flies over a park." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A frisbee flies over a park." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt30new_pair_001/original-b.jpg" data-still="assets/prompt30new_pair_001/original-b.jpg" data-gif="assets/prompt30new_pair_001/original-b.gif" width="240" height="138" alt="original video B: A flying saucer crosses a city." data-description="original video B: A flying saucer crosses a city." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A flying saucer crosses a city." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt30new_pair_001/edited.jpg" data-still="assets/prompt30new_pair_001/edited.jpg" data-gif="assets/prompt30new_pair_001/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A frisbee flies over a park.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A flying saucer crosses a city.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt30new_pair_003/original-a.jpg" data-still="assets/prompt30new_pair_003/original-a.jpg" data-gif="assets/prompt30new_pair_003/original-a.gif" width="240" height="138" alt="original video A: A bicycle wheel turns." data-description="original video A: A bicycle wheel turns." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A bicycle wheel turns." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt30new_pair_003/original-b.jpg" data-still="assets/prompt30new_pair_003/original-b.jpg" data-gif="assets/prompt30new_pair_003/original-b.gif" width="240" height="138" alt="original video B: A Ferris wheel rotates." data-description="original video B: A Ferris wheel rotates." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A Ferris wheel rotates." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt30new_pair_003/edited.jpg" data-still="assets/prompt30new_pair_003/edited.jpg" data-gif="assets/prompt30new_pair_003/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A bicycle wheel turns.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A Ferris wheel rotates.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt30new_pair_007/original-a.jpg" data-still="assets/prompt30new_pair_007/original-a.jpg" data-gif="assets/prompt30new_pair_007/original-a.gif" width="240" height="138" alt="original video A: A pink doughnut rests." data-description="original video A: A pink doughnut rests." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A pink doughnut rests." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt30new_pair_007/original-b.jpg" data-still="assets/prompt30new_pair_007/original-b.jpg" data-gif="assets/prompt30new_pair_007/original-b.gif" width="240" height="138" alt="original video B: A pink life ring hangs." data-description="original video B: A pink life ring hangs." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A pink life ring hangs." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt30new_pair_007/edited.jpg" data-still="assets/prompt30new_pair_007/edited.jpg" data-gif="assets/prompt30new_pair_007/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A pink doughnut rests.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A pink life ring hangs.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt30new_pair_009/original-a.jpg" data-still="assets/prompt30new_pair_009/original-a.jpg" data-gif="assets/prompt30new_pair_009/original-a.gif" width="240" height="138" alt="original video A: A strawberry rests on a table." data-description="original video A: A strawberry rests on a table." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A strawberry rests on a table." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt30new_pair_009/original-b.jpg" data-still="assets/prompt30new_pair_009/original-b.jpg" data-gif="assets/prompt30new_pair_009/original-b.gif" width="240" height="138" alt="original video B: A red hot-air balloon drifts." data-description="original video B: A red hot-air balloon drifts." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A red hot-air balloon drifts." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt30new_pair_009/edited.jpg" data-still="assets/prompt30new_pair_009/edited.jpg" data-gif="assets/prompt30new_pair_009/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A strawberry rests on a table.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A red hot-air balloon drifts.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt30new_pair_011/original-a.jpg" data-still="assets/prompt30new_pair_011/original-a.jpg" data-gif="assets/prompt30new_pair_011/original-a.gif" width="240" height="138" alt="original video A: A green fan stands open." data-description="original video A: A green fan stands open." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A green fan stands open." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt30new_pair_011/original-b.jpg" data-still="assets/prompt30new_pair_011/original-b.jpg" data-gif="assets/prompt30new_pair_011/original-b.gif" width="240" height="138" alt="original video B: A peacock displays its tail." data-description="original video B: A peacock displays its tail." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A peacock displays its tail." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt30new_pair_011/edited.jpg" data-still="assets/prompt30new_pair_011/edited.jpg" data-gif="assets/prompt30new_pair_011/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A green fan stands open.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A peacock displays its tail.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt30new_pair_015/original-a.jpg" data-still="assets/prompt30new_pair_015/original-a.jpg" data-gif="assets/prompt30new_pair_015/original-a.gif" width="240" height="138" alt="original video A: A wingsuit flyer glides." data-description="original video A: A wingsuit flyer glides." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A wingsuit flyer glides." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt30new_pair_015/original-b.jpg" data-still="assets/prompt30new_pair_015/original-b.jpg" data-gif="assets/prompt30new_pair_015/original-b.gif" width="240" height="138" alt="original video B: A flying squirrel glides." data-description="original video B: A flying squirrel glides." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A flying squirrel glides." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt30new_pair_015/edited.jpg" data-still="assets/prompt30new_pair_015/edited.jpg" data-gif="assets/prompt30new_pair_015/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A wingsuit flyer glides.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A flying squirrel glides.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt30new_pair_016/original-a.jpg" data-still="assets/prompt30new_pair_016/original-a.jpg" data-gif="assets/prompt30new_pair_016/original-a.gif" width="240" height="138" alt="original video A: A person wears a raincoat." data-description="original video A: A person wears a raincoat." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A person wears a raincoat." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt30new_pair_016/original-b.jpg" data-still="assets/prompt30new_pair_016/original-b.jpg" data-gif="assets/prompt30new_pair_016/original-b.gif" width="240" height="138" alt="original video B: A yellow scarecrow stands." data-description="original video B: A yellow scarecrow stands." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A yellow scarecrow stands." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt30new_pair_016/edited.jpg" data-still="assets/prompt30new_pair_016/edited.jpg" data-gif="assets/prompt30new_pair_016/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A person wears a raincoat.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A yellow scarecrow stands.</span></p>
+          </div>
+        </article>
+        <article class="showcase">
+          <p class="version-label">original version</p>
+          <div class="original-grid">
+            <figure>
+              <figcaption>video A</figcaption>
+              <img class="animation" src="assets/prompt30new_pair_019/original-a.jpg" data-still="assets/prompt30new_pair_019/original-a.jpg" data-gif="assets/prompt30new_pair_019/original-a.gif" width="240" height="138" alt="original video A: A pinecone rests on moss." data-description="original video A: A pinecone rests on moss." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video A: A pinecone rests on moss." aria-pressed="false">
+            </figure>
+            <figure>
+              <figcaption>video B</figcaption>
+              <img class="animation" src="assets/prompt30new_pair_019/original-b.jpg" data-still="assets/prompt30new_pair_019/original-b.jpg" data-gif="assets/prompt30new_pair_019/original-b.gif" width="240" height="138" alt="original video B: A pangolin curls in a forest." data-description="original video B: A pangolin curls in a forest." loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play original video B: A pangolin curls in a forest." aria-pressed="false">
+            </figure>
+          </div>
+          <p class="version-label edited-label">edited version</p>
+          <img class="animation" src="assets/prompt30new_pair_019/edited.jpg" data-still="assets/prompt30new_pair_019/edited.jpg" data-gif="assets/prompt30new_pair_019/edited.gif" width="480" height="276" alt="edited match-cut showcase" data-description="edited match-cut showcase" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Play edited match-cut showcase" aria-pressed="false">
+          <div class="prompts">
+            <p class="prompt-line"><span class="prompt-label">Prompt A:</span><span class="prompt-text">A pinecone rests on moss.</span></p>
+            <p class="prompt-line"><span class="prompt-label">Prompt B:</span><span class="prompt-text">A pangolin curls in a forest.</span></p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Page layout inspired by <a href="https://matchdiffusion.github.io/" target="_blank" rel="noreferrer">MatchDiffusion</a>.</p>
+  </footer>
+</body>
+</html>
