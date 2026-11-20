@@ -5,7 +5,8 @@
     "prompt_b": "A spacecraft glides in space.",
     "source_a": "runs/prompt_pair_001/sources/A_raw.mp4",
     "source_b": "runs/prompt_pair_001/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/prompt_pair_001/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/prompt_pair_001/generation/final.mp4",
+    "asset_slug": "bone-spacecraft"
   },
   {
     "id": "prompt_pair_002",
@@ -13,7 +14,8 @@
     "prompt_b": "A skater circles on a lake.",
     "source_a": "runs/prompt_pair_002/sources/A_raw.mp4",
     "source_b": "runs/prompt_pair_002/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/prompt_pair_002/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/prompt_pair_002/generation/final.mp4",
+    "asset_slug": "car-skater"
   },
   {
     "id": "prompt_pair_003",
@@ -21,7 +23,8 @@
     "prompt_b": "A butterfly flutters.",
     "source_a": "runs/prompt_pair_003/sources/A_raw.mp4",
     "source_b": "runs/prompt_pair_003/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/prompt_pair_003/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/prompt_pair_003/generation/final.mp4",
+    "asset_slug": "autumn-leaf-butterfly"
   },
   {
     "id": "prompt_pair_005",
@@ -29,7 +32,8 @@
     "prompt_b": "Fireworks light up the sky.",
     "source_a": "runs/prompt_pair_005/sources/A_raw.mp4",
     "source_b": "runs/prompt_pair_005/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/prompt_pair_005/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/prompt_pair_005/generation/final.mp4",
+    "asset_slug": "flower-fireworks"
   },
   {
     "id": "prompt13_pair_001",
@@ -37,7 +41,8 @@
     "prompt_b": "A flying saucer drifts.",
     "source_a": "runs/prompt13_pair_001/sources/A_raw.mp4",
     "source_b": "runs/prompt13_pair_001/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/prompt13_pair_001/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_001/generation/final.mp4",
+    "asset_slug": "frisbee-flying-saucer"
   },
   {
     "id": "prompt13_pair_002",
@@ -45,7 +50,8 @@
     "prompt_b": "A sky lantern floats upward.",
     "source_a": "runs/prompt13_pair_002/sources/A_raw.mp4",
     "source_b": "runs/prompt13_pair_002/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/prompt13_pair_002/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_002/generation/final.mp4",
+    "asset_slug": "balloon-sky-lantern"
   },
   {
     "id": "prompt13_pair_003",
@@ -53,7 +59,8 @@
     "prompt_b": "A spacecraft glides in space.",
     "source_a": "runs/prompt13_pair_003/sources/A_raw.mp4",
     "source_b": "runs/prompt13_pair_003/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/prompt13_pair_003/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_003/generation/final.mp4",
+    "asset_slug": "paper-airplane-spacecraft"
   },
   {
     "id": "prompt13_pair_004",
@@ -61,7 +68,8 @@
     "prompt_b": "An energy sphere floats.",
     "source_a": "editA_oat_v4/runs/prompt13_pair_004/sources/A_raw.mp4",
     "source_b": "editA_oat_v4/runs/prompt13_pair_004/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/prompt13_pair_004/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_004/generation/final.mp4",
+    "asset_slug": "tennis-ball-energy-sphere"
   },
   {
     "id": "prompt13_pair_007",
@@ -69,7 +77,8 @@
     "prompt_b": "A full moon drifts in the sky.",
     "source_a": "runs/prompt13_pair_007/sources/A_raw.mp4",
     "source_b": "runs/prompt13_pair_007/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/prompt13_pair_007/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_007/generation/final.mp4",
+    "asset_slug": "clock-moon"
   },
   {
     "id": "prompt13_pair_008",
@@ -77,7 +86,8 @@
     "prompt_b": "A glass marble rolls.",
     "source_a": "editA_oat_v4/runs/prompt13_pair_008/sources/A_raw.mp4",
     "source_b": "editA_oat_v4/runs/prompt13_pair_008/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/prompt13_pair_008/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_008/generation/final.mp4",
+    "asset_slug": "soap-bubble-glass-marble"
   },
   {
     "id": "prompt13_pair_010",
@@ -85,7 +95,8 @@
     "prompt_b": "A red glass bead rolls.",
     "source_a": "editA_oat_v4/runs/prompt13_pair_010/sources/A_raw.mp4",
     "source_b": "editA_oat_v4/runs/prompt13_pair_010/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/prompt13_pair_010/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_010/generation/final.mp4",
+    "asset_slug": "cherry-glass-bead"
   },
   {
     "id": "prompt13_pair_011",
@@ -93,7 +104,8 @@
     "prompt_b": "A round robot moves away.",
     "source_a": "editA_oat_v4/runs/prompt13_pair_011/sources/A_raw.mp4",
     "source_b": "editA_oat_v4/runs/prompt13_pair_011/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/prompt13_pair_011/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_011/generation/final.mp4",
+    "asset_slug": "ping-pong-ball-robot"
   },
   {
     "id": "prompt13_pair_013",
@@ -101,7 +113,8 @@
     "prompt_b": "A camera nears a tunnel.",
     "source_a": "editA_oat_v4/runs/prompt13_pair_013/sources/A_raw.mp4",
     "source_b": "editA_oat_v4/runs/prompt13_pair_013/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/prompt13_pair_013/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/prompt13_pair_013/generation/final.mp4",
+    "asset_slug": "arch-tunnel"
   },
   {
     "id": "prompt30_pair_002",
@@ -109,7 +122,8 @@
     "prompt_b": "A red jellyfish pulses.",
     "source_a": "editA_oat_v4/runs/prompt30_pair_002/sources/A_raw.mp4",
     "source_b": "editA_oat_v4/runs/prompt30_pair_002/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/prompt30_pair_002/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/prompt30_pair_002/generation/final.mp4",
+    "asset_slug": "umbrella-jellyfish"
   },
   {
     "id": "prompt30_pair_011",
@@ -117,7 +131,8 @@
     "prompt_b": "A pufferfish swims in a reef.",
     "source_a": "editA_oat_v4/runs/prompt30_pair_011/sources/A_raw.mp4",
     "source_b": "editA_oat_v4/runs/prompt30_pair_011/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/prompt30_pair_011/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/prompt30_pair_011/generation/final.mp4",
+    "asset_slug": "soccer-ball-pufferfish"
   },
   {
     "id": "prompt30_pair_014",
@@ -125,7 +140,8 @@
     "prompt_b": "An orange silk flag ripples.",
     "source_a": "editA_oat_v4/runs/prompt30_pair_014/sources/A_raw.mp4",
     "source_b": "editA_oat_v4/runs/prompt30_pair_014/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/prompt30_pair_014/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/prompt30_pair_014/generation/final.mp4",
+    "asset_slug": "goldfish-silk-flag"
   },
   {
     "id": "prompt30new_pair_001",
@@ -133,7 +149,8 @@
     "prompt_b": "A flying saucer crosses a city.",
     "source_a": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_001/sources/A_raw.mp4",
     "source_b": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_001/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_001/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_001/generation/final.mp4",
+    "asset_slug": "park-frisbee-city-flying-saucer"
   },
   {
     "id": "prompt30new_pair_003",
@@ -141,7 +158,8 @@
     "prompt_b": "A Ferris wheel rotates.",
     "source_a": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_003/sources/A_raw.mp4",
     "source_b": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_003/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_003/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_003/generation/final.mp4",
+    "asset_slug": "bicycle-wheel-ferris-wheel"
   },
   {
     "id": "prompt30new_pair_007",
@@ -149,7 +167,8 @@
     "prompt_b": "A pink life ring hangs.",
     "source_a": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_007/sources/A_raw.mp4",
     "source_b": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_007/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_007/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_007/generation/final.mp4",
+    "asset_slug": "doughnut-life-ring"
   },
   {
     "id": "prompt30new_pair_009",
@@ -157,7 +176,8 @@
     "prompt_b": "A red hot-air balloon drifts.",
     "source_a": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_009/sources/A_raw.mp4",
     "source_b": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_009/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_009/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_009/generation/final.mp4",
+    "asset_slug": "strawberry-hot-air-balloon"
   },
   {
     "id": "prompt30new_pair_011",
@@ -165,7 +185,8 @@
     "prompt_b": "A peacock displays its tail.",
     "source_a": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_011/sources/A_raw.mp4",
     "source_b": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_011/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_011/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_011/generation/final.mp4",
+    "asset_slug": "folding-fan-peacock"
   },
   {
     "id": "prompt30new_pair_015",
@@ -173,7 +194,8 @@
     "prompt_b": "A flying squirrel glides.",
     "source_a": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_015/sources/A_raw.mp4",
     "source_b": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_015/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_015/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_015/generation/final.mp4",
+    "asset_slug": "wingsuit-flyer-flying-squirrel"
   },
   {
     "id": "prompt30new_pair_016",
@@ -181,7 +203,8 @@
     "prompt_b": "A yellow scarecrow stands.",
     "source_a": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_016/sources/A_raw.mp4",
     "source_b": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_016/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_016/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_016/generation/final.mp4",
+    "asset_slug": "raincoat-person-scarecrow"
   },
   {
     "id": "prompt30new_pair_019",
@@ -189,6 +212,7 @@
     "prompt_b": "A pangolin curls in a forest.",
     "source_a": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_019/sources/A_raw.mp4",
     "source_b": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_019/sources/B_raw.mp4",
-    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_019/generation/final.mp4"
+    "edited_source": "editA_oat_v4/runs/comparison_gpu01/prompt30new_pair_019/generation/final.mp4",
+    "asset_slug": "pinecone-pangolin"
   }
 ]

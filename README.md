@@ -36,6 +36,11 @@ python scripts/build_gifs.py
 python scripts/render_showcases.py
 ```
 
+Asset folders use the subjects from prompts A and B, such as `bone-spacecraft`
+and `bicycle-wheel-ferris-wheel`. Each entry's `asset_slug` controls its folder
+name; `id` and source paths retain the original run identity. Repeated subject
+pairs include scene words to distinguish them.
+
 To publish with GitHub Pages, set **Settings > Pages > Deploy from a branch** to
 **main / (root)**. All paths are relative, so the page also works under a project
 URL such as `https://amber0913.github.io/moat/`.

@@ -32,7 +32,7 @@ def main():
     cases = json.loads((SITE/'scripts/showcases.json').read_text())
     cards = []
     for index, case in enumerate(cases):
-        cid = case['id']
+        cid = case['asset_slug']
         deferred = index > 0
         a = escape(case['prompt_a'])
         b = escape(case['prompt_b'])

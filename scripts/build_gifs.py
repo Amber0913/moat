@@ -68,9 +68,9 @@ def main():
         cases = cases[:args.limit]
     jobs = []
     for case in cases:
-        jobs.extend([(case['id'], 'original-a.gif', case['source_a'], SETTINGS['original_width']),
-                     (case['id'], 'original-b.gif', case['source_b'], SETTINGS['original_width']),
-                     (case['id'], 'edited.gif', case['edited_source'], SETTINGS['edited_width'])])
+        jobs.extend([(case['asset_slug'], 'original-a.gif', case['source_a'], SETTINGS['original_width']),
+                     (case['asset_slug'], 'original-b.gif', case['source_b'], SETTINGS['original_width']),
+                     (case['asset_slug'], 'edited.gif', case['edited_source'], SETTINGS['edited_width'])])
     started = time.monotonic()
     completed = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
